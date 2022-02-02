@@ -10,6 +10,7 @@ RUN set -ex; \
         bzip2 \
         busybox-static \
         libldap-common \
+        smbclient \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     \
